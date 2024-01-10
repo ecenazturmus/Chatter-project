@@ -15,7 +15,7 @@ If it didn't send it to itself, the message is forwarded, and the message reache
 The object, in turn, saves the message using the 'store' function, and the code ends. The 'addme' and 'delete me' functions call the 'add' and 'delete' functions inside the 'central object,' respectively, for registration or deletion.
 
 */
-public class Ece {
+public class Chatter {
     public static void main(String args[]) {
 
         UserType2 nil = new UserType2();
